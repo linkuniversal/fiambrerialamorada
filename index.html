@@ -6,7 +6,7 @@
     <title>Fiambrería La Morada | Estilo Casero &amp; Pastas Caseras</title>
     <meta name="description" content="Fiambrería, fábrica de pastas, picadas, delicatessen en Longchamps y Temperley.">
 
-    <meta name="theme-color" content="#F7F3EB">
+    <meta name="theme-color" content="#FAF7F0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
@@ -24,35 +24,29 @@
            1. SISTEMA CROMÁTICO PROFESIONAL EN MODO CLARO (ADN LA MORADA)
            ========================================================================== */
         :root {
-            /* Identidad cromática del logo */
             --mor-blue-electric: #38A7F1;
             --mor-blue-deep: #1A74B0;
             --mor-blue-soft: #EDF7FD;
             --mor-blue-glow: rgba(56, 167, 241, 0.22);
 
-            /* Modo Claro: Papel artesanal, marfil & cremas suaves */
             --mor-bg-page: #FAF7F0;
             --mor-bg-subtle: #F3EFE6;
             --mor-card-white: #FFFFFF;
             --mor-card-inner: #F8F5EE;
 
-            /* Matices gastronómicos secundarios */
             --mor-cheese-gold: #D69728;
             --mor-cheese-soft: #FFF9ED;
             --mor-wine-accent: #942634;
             --mor-olive-accent: #486638;
 
-            /* Textos y contrastes */
             --mor-text-main: #161E28;
             --mor-text-body: #323E4D;
             --mor-text-muted: #647487;
 
-            /* Bordes y sombras orgánicas */
-            --mor-border-subtle: rgba(22, 30, 40, 0.08);
-            --mor-border-blue: rgba(56, 167, 241, 0.28);
-            --mor-border-strong: #161E28;
+            --mor-border-subtle: rgba(22, 30, 40, 0.09);
+            --mor-border-blue: rgba(56, 167, 241, 0.35);
 
-            --shadow-subtle: 0 4px 14px rgba(22, 30, 40, 0.04);
+            --shadow-subtle: 0 4px 14px rgba(22, 30, 40, 0.05);
             --shadow-card: 0 12px 30px -6px rgba(22, 30, 40, 0.08), 0 2px 8px rgba(0, 0, 0, 0.03);
             --shadow-float: 0 16px 36px -8px rgba(56, 167, 241, 0.25), 0 4px 12px rgba(0, 0, 0, 0.04);
 
@@ -94,7 +88,7 @@
         }
 
         /* ==========================================================================
-           2. PATRÓN DE FONDO SUAVE, CURVO Y SUTIL A 45°
+           2. PATRÓN DE FONDO SUAVE, CURVO Y CON MATICES VISIBLES (A 45°)
            ========================================================================== */
         .ambient-soft-pattern {
             position: fixed;
@@ -106,15 +100,15 @@
             transform: rotate(-45deg);
             background-image:
                 /* Espiga curva de trigo suave */
-                url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 90 Q50 60 60 30 Q70 60 90 90' fill='none' stroke='%2338A7F1' stroke-width='1.4' stroke-linecap='round' stroke-opacity='0.16'/%3E%3Cellipse cx='54' cy='45' rx='6' ry='3' fill='none' stroke='%2338A7F1' stroke-width='1.2' stroke-opacity='0.16' transform='rotate(-30 54 45)'/%3E%3Cellipse cx='66' cy='45' rx='6' ry='3' fill='none' stroke='%2338A7F1' stroke-width='1.2' stroke-opacity='0.16' transform='rotate(30 66 45)'/%3E%3C/svg%3E"),
+                url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 90 Q50 60 60 30 Q70 60 90 90' fill='none' stroke='%2338A7F1' stroke-width='1.8' stroke-linecap='round' stroke-opacity='0.36'/%3E%3Cellipse cx='54' cy='45' rx='6' ry='3' fill='%2338A7F1' fill-opacity='0.16' stroke='%2338A7F1' stroke-width='1.4' stroke-opacity='0.36' transform='rotate(-30 54 45)'/%3E%3Cellipse cx='66' cy='45' rx='6' ry='3' fill='%2338A7F1' fill-opacity='0.16' stroke='%2338A7F1' stroke-width='1.4' stroke-opacity='0.36' transform='rotate(30 66 45)'/%3E%3C/svg%3E"),
                 /* Horma de queso redondeada y suave */
-                url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cellipse cx='50' cy='50' rx='26' ry='16' fill='none' stroke='%23D69728' stroke-width='1.4' stroke-opacity='0.14'/%3E%3Ccircle cx='44' cy='48' r='3.5' fill='%23D69728' fill-opacity='0.08'/%3E%3Ccircle cx='58' cy='52' r='2.5' fill='%23D69728' fill-opacity='0.08'/%3E%3C/svg%3E"),
-                /* Contorno sutil de copa y hoja de olivo curva */
-                url("data:image/svg+xml,%3Csvg width='130' height='130' viewBox='0 0 130 130' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M45 35 C45 52 58 58 58 70 L58 85 M50 85 L66 85 C58 58 71 52 71 35 Z' fill='none' stroke='%23486638' stroke-width='1.3' stroke-linecap='round' stroke-opacity='0.14'/%3E%3Cpath d='M85 85 Q95 70 105 85 Q95 100 85 85 Z' fill='none' stroke='%23486638' stroke-width='1.2' stroke-opacity='0.14'/%3E%3C/svg%3E");
+                url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cellipse cx='50' cy='50' rx='26' ry='16' fill='%23D69728' fill-opacity='0.12' stroke='%23D69728' stroke-width='1.8' stroke-opacity='0.38'/%3E%3Ccircle cx='44' cy='48' r='3.5' fill='%23D69728' fill-opacity='0.30'/%3E%3Ccircle cx='58' cy='52' r='2.5' fill='%23D69728' fill-opacity='0.30'/%3E%3C/svg%3E"),
+                /* Copa de vino y hoja de olivo curva */
+                url("data:image/svg+xml,%3Csvg width='130' height='130' viewBox='0 0 130 130' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M45 35 C45 52 58 58 58 70 L58 85 M50 85 L66 85 C58 58 71 52 71 35 Z' fill='%23942634' fill-opacity='0.08' stroke='%23942634' stroke-width='1.6' stroke-linecap='round' stroke-opacity='0.34'/%3E%3Cpath d='M85 85 Q95 70 105 85 Q95 100 85 85 Z' fill='%23486638' fill-opacity='0.20' stroke='%23486638' stroke-width='1.5' stroke-opacity='0.36'/%3E%3C/svg%3E");
             background-size: 120px 120px, 100px 100px, 130px 130px;
             background-position: 0 0, 50px 50px, 95px 85px;
             background-repeat: repeat;
-            opacity: 0.85;
+            opacity: 0.95;
             animation: softPatternDrift 55s linear infinite;
             will-change: background-position;
         }
@@ -129,11 +123,11 @@
             inset: 0;
             z-index: 1;
             pointer-events: none;
-            background: radial-gradient(circle at 50% 10%, rgba(255, 255, 255, 0.7) 0%, rgba(250, 247, 240, 0.5) 100%);
+            background: radial-gradient(circle at 50% 12%, rgba(255, 255, 255, 0.45) 0%, rgba(250, 247, 240, 0.20) 100%);
         }
 
         /* ==========================================================================
-           3. MARQUESINA INSTITUCIONAL EN MODO CLARO
+           3. MARQUESINA INSTITUCIONAL
            ========================================================================== */
         .marquee-strip-flow {
             width: calc(100% + 24px);
@@ -195,6 +189,7 @@
             margin: 0 auto;
             padding-top: 14px;
             box-sizing: border-box;
+            overflow-x: hidden;
         }
 
         /* ==========================================================================
@@ -272,44 +267,30 @@
         }
 
         /* ==========================================================================
-           6. HERO BRAND MONUMENT (CON MONEDA 3D)
+           6. HERO: LOGO Y TÍTULO SUELTOS + RECUADRO COMPACTO
            ========================================================================== */
-        .hero-monument-card {
-            background: #FFFFFF;
-            border: 1.5px solid var(--mor-border-subtle);
-            border-radius: 26px;
-            padding: 24px 20px 22px;
+        .hero-standalone-wrap {
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            box-shadow: var(--shadow-card);
-            position: relative;
-            overflow: hidden;
             width: 100%;
-        }
-
-        .hero-monument-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, var(--mor-blue-electric), var(--mor-cheese-gold), var(--mor-blue-electric));
+            padding: 4px 0 2px;
         }
 
         .logo-coin-container {
-            width: 130px;
-            height: 130px;
+            width: 134px;
+            height: 134px;
             border-radius: 50%;
             background: radial-gradient(circle at 35% 30%, #FFFFFF 0%, #FAF6EE 65%, #EDE5D3 100%);
-            border: 3px solid var(--mor-blue-electric);
+            border: 3.5px solid var(--mor-blue-electric);
             display: flex;
             align-items: center;
             justify-content: center;
             position: relative;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             padding: 10px;
-            box-shadow: 0 10px 24px rgba(22, 30, 40, 0.12), 0 0 0 6px rgba(56, 167, 241, 0.14);
+            box-shadow: 0 12px 28px rgba(56, 167, 241, 0.22), 0 0 0 6px rgba(56, 167, 241, 0.14);
             animation: coinFlipSway 5.5s infinite ease-in-out;
             cursor: pointer;
             transition: transform 0.3s var(--spring);
@@ -336,12 +317,25 @@
 
         .brand-monument-title {
             font-family: var(--font-serif);
-            font-size: clamp(2.1rem, 7.5vw, 2.5rem);
+            font-size: clamp(2.4rem, 8.5vw, 2.9rem);
             font-weight: 400;
             color: var(--mor-text-main);
             letter-spacing: -0.01em;
             line-height: 1.05;
-            margin-top: 2px;
+        }
+
+        /* RECUADRO COMPACTO Y ESBELTO */
+        .hero-subcard-compact {
+            background: #FFFFFF;
+            border: 1.5px solid var(--mor-border-subtle);
+            border-radius: 20px;
+            padding: 14px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            box-shadow: var(--shadow-subtle);
+            width: 100%;
         }
 
         .hero-title-edition {
@@ -349,23 +343,22 @@
             align-items: center;
             background: var(--mor-blue-soft);
             border: 1px solid var(--mor-blue-electric);
-            padding: 4px 14px;
+            padding: 3px 12px;
             border-radius: 999px;
             font-family: var(--font-mono);
-            font-size: 0.72rem;
+            font-size: 0.70rem;
             font-weight: 700;
-            letter-spacing: 0.06em;
+            letter-spacing: 0.05em;
             text-transform: uppercase;
             color: var(--mor-blue-deep);
-            margin-top: 6px;
         }
 
         .hero-tagline-quote {
-            font-size: 0.86rem;
-            line-height: 1.5;
+            font-size: 0.82rem;
+            line-height: 1.45;
             color: var(--mor-text-body);
-            max-width: 95%;
-            margin-top: 12px;
+            max-width: 96%;
+            margin-top: 8px;
             font-weight: 500;
         }
 
@@ -378,24 +371,23 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 7px;
+            gap: 6px;
             flex-wrap: wrap;
-            margin-top: 14px;
+            margin-top: 10px;
         }
 
         .pill-micro-seal {
             background: var(--mor-bg-subtle);
             border: 1px solid var(--mor-border-subtle);
             border-radius: 999px;
-            padding: 5px 12px;
+            padding: 4px 10px;
             font-family: var(--font-mono);
-            font-size: 0.65rem;
+            font-size: 0.62rem;
             font-weight: 700;
             color: var(--mor-text-main);
             letter-spacing: 0.04em;
             display: inline-flex;
             align-items: center;
-            gap: 5px;
             text-transform: uppercase;
         }
 
@@ -560,13 +552,13 @@
         }
 
         /* ==========================================================================
-           8. REELS Y VIDEOS EN MODO CLARO (SMART VIDEO ENGINE)
+           8. REELS Y VIDEOS (SIEMPRE 2 EN LA MISMA FILA, SIDE-BY-SIDE)
            ========================================================================== */
         .showcase-enclosure-clean {
             background: #FFFFFF;
             border: 1.5px solid var(--mor-border-subtle);
             border-radius: 26px;
-            padding: 18px 16px 16px;
+            padding: 16px 14px;
             display: flex;
             flex-direction: column;
             gap: 12px;
@@ -597,16 +589,19 @@
             letter-spacing: 0.06em;
         }
 
+        /* FIJADO ESTRICTO EN 2 COLUMNAS (NUNCA SE APILA EN 1) */
         .carousel-videos-track {
             display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 12px;
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            gap: 10px;
             width: 100%;
         }
 
         .reel-scroll-card {
-            height: 250px;
-            border-radius: 20px;
+            height: 235px;
+            min-width: 0;
+            width: 100%;
+            border-radius: 18px;
             overflow: hidden;
             position: relative;
             background: #0E131A;
@@ -630,14 +625,14 @@
 
         .reel-scroll-tag {
             position: absolute;
-            top: 8px; left: 8px;
+            top: 7px; left: 7px;
             font-family: var(--font-mono);
-            font-size: 0.62rem;
+            font-size: 0.60rem;
             font-weight: 700;
             background: rgba(22, 30, 40, 0.88);
             backdrop-filter: blur(4px);
             color: #FFFFFF;
-            padding: 3px 8px;
+            padding: 2px 7px;
             border-radius: 999px;
             border: 1px solid var(--mor-blue-electric);
             text-transform: uppercase;
@@ -647,8 +642,8 @@
 
         .reel-audio-btn {
             position: absolute;
-            top: 8px; right: 8px;
-            width: 32px; height: 32px;
+            top: 7px; right: 7px;
+            width: 30px; height: 30px;
             border-radius: 50%;
             background: rgba(22, 30, 40, 0.88);
             border: 1px solid var(--mor-blue-electric);
@@ -661,35 +656,35 @@
             transition: transform 0.2s;
         }
         .reel-audio-btn:hover { transform: scale(1.1); }
-        .reel-audio-btn svg { width: 15px; height: 15px; fill: currentColor; }
+        .reel-audio-btn svg { width: 14px; height: 14px; fill: currentColor; }
 
         .reel-scroll-caption {
             position: absolute;
             bottom: 0; left: 0; right: 0;
-            padding: 24px 10px 10px;
-            background: linear-gradient(to top, rgba(14, 19, 26, 0.92) 0%, transparent 100%);
+            padding: 20px 8px 8px;
+            background: linear-gradient(to top, rgba(14, 19, 26, 0.94) 0%, transparent 100%);
             font-family: var(--font-sans);
-            font-size: 0.74rem;
+            font-size: 0.70rem;
             font-weight: 700;
             color: #FFFFFF;
             text-align: center;
-            line-height: 1.25;
+            line-height: 1.22;
             z-index: 2;
         }
 
         /* ==========================================================================
-           9. GRILLA BENTO DE ESPECIALIDADES EN MODO CLARO
+           9. GRILLA BENTO DE ESPECIALIDADES
            ========================================================================== */
         .morph-bento-grid {
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 12px;
+            gap: 10px;
             width: 100%;
         }
 
         .bento-cell-card {
-            padding: 16px 14px;
-            border-radius: 22px;
+            padding: 15px 13px;
+            border-radius: 20px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -700,13 +695,14 @@
             background: #FFFFFF;
             box-shadow: var(--shadow-card);
             transition: all 0.25s var(--spring);
-            min-height: 140px;
+            min-height: 135px;
+            min-width: 0;
             color: var(--mor-text-main);
             cursor: pointer;
         }
 
         .bento-cell-card:hover {
-            transform: translateY(-3px);
+            transform: translateY(-2px);
             border-color: var(--mor-blue-electric);
             box-shadow: var(--shadow-float);
         }
@@ -715,30 +711,30 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 6px;
+            margin-bottom: 5px;
         }
 
         .cell-chip-tag {
             font-family: var(--font-mono);
-            font-size: 0.65rem;
+            font-size: 0.64rem;
             font-weight: 700;
-            letter-spacing: 0.08em;
+            letter-spacing: 0.06em;
             text-transform: uppercase;
             color: var(--mor-blue-deep);
         }
 
         .cell-poster-headline {
             font-family: var(--font-serif);
-            font-size: 1.25rem;
+            font-size: 1.20rem;
             font-weight: 400;
             line-height: 1.15;
             color: var(--mor-text-main);
         }
 
         .cell-body-caption {
-            font-size: 0.76rem;
+            font-size: 0.74rem;
             margin-top: 4px;
-            line-height: 1.38;
+            line-height: 1.35;
             color: var(--mor-text-body);
             font-weight: 500;
         }
@@ -748,7 +744,7 @@
             grid-column: span 2;
             background: linear-gradient(135deg, #FFFFFF 0%, #F5F9FD 100%);
             border-color: var(--mor-blue-electric);
-            padding: 18px 18px;
+            padding: 16px 16px;
             min-height: auto;
         }
 
@@ -761,9 +757,9 @@
             box-shadow: var(--shadow-float);
         }
 
-        /* =========================================================
-           10. GALERÍA DE FOTOS (.WEBP)
-           ========================================================= */
+        /* ==========================================================================
+           10. GALERÍA DE FOTOS CURADA (SIN DESBORDES)
+           ========================================================================== */
         .category-filter-tabs {
             display: flex;
             gap: 6px;
@@ -778,9 +774,9 @@
             background: var(--mor-bg-subtle);
             border: 1.5px solid var(--mor-border-subtle);
             border-radius: 999px;
-            padding: 6px 13px;
+            padding: 5px 12px;
             font-family: var(--font-mono);
-            font-size: 0.68rem;
+            font-size: 0.66rem;
             font-weight: 700;
             color: var(--mor-text-body);
             white-space: nowrap;
@@ -798,8 +794,8 @@
 
         .gallery-cards-grid {
             display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 10px;
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            gap: 9px;
             width: 100%;
         }
 
@@ -807,28 +803,34 @@
             background: #FFFFFF;
             border: 1.5px solid var(--mor-border-subtle);
             border-radius: 16px;
-            padding: 7px;
+            padding: 6px;
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            gap: 5px;
             cursor: pointer;
             box-shadow: var(--shadow-subtle);
+            min-width: 0;
+            max-width: 100%;
+            overflow: hidden;
+            box-sizing: border-box;
             transition: transform 0.25s var(--spring), box-shadow 0.25s ease;
         }
 
         .gallery-photo-card:hover {
-            transform: translateY(-3px);
+            transform: translateY(-2px);
             border-color: var(--mor-blue-electric);
             box-shadow: var(--shadow-card);
         }
 
         .photo-img-wrap {
             width: 100%;
-            height: 135px;
+            height: 125px;
             border-radius: 11px;
             overflow: hidden;
             background: #EDE8DE;
             position: relative;
+            min-width: 0;
+            box-sizing: border-box;
         }
 
         .photo-img-wrap img {
@@ -845,33 +847,36 @@
 
         .photo-cat-tag {
             position: absolute;
-            top: 6px; left: 6px;
+            top: 5px; left: 5px;
             background: rgba(255, 255, 255, 0.94);
             border: 1px solid var(--mor-border-blue);
             color: var(--mor-blue-deep);
             font-family: var(--font-mono);
-            font-size: 0.58rem;
+            font-size: 0.56rem;
             font-weight: 700;
             letter-spacing: 0.04em;
             text-transform: uppercase;
-            padding: 2px 7px;
-            border-radius: 6px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+            padding: 2px 6px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
         }
 
         .photo-title-label {
-            font-size: 0.78rem;
+            font-size: 0.76rem;
             font-weight: 700;
             color: var(--mor-text-main);
             line-height: 1.25;
-            padding: 2px 2px 0;
+            padding: 1px 2px 0;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            display: block;
+            min-width: 0;
+            max-width: 100%;
         }
 
         /* ==========================================================================
-           11. HORARIOS & RESEÑA GOOGLE EN MODO CLARO
+           11. HORARIOS & RESEÑA GOOGLE
            ========================================================================== */
         .hours-schedule-card {
             background: #FFFFFF;
@@ -901,7 +906,7 @@
         .hours-schedule-list {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 7px;
         }
 
         .hour-row-item {
@@ -910,10 +915,10 @@
             justify-content: space-between;
             background: var(--mor-bg-subtle);
             border: 1px solid var(--mor-border-subtle);
-            padding: 9px 12px;
+            padding: 8px 11px;
             border-radius: 12px;
             font-family: var(--font-mono);
-            font-size: 0.75rem;
+            font-size: 0.74rem;
             font-weight: 700;
         }
 
@@ -932,7 +937,7 @@
             padding: 16px 18px;
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 7px;
             width: 100%;
             box-shadow: var(--shadow-card);
         }
@@ -944,7 +949,7 @@
         }
 
         .review-quote-body {
-            font-size: 0.78rem;
+            font-size: 0.77rem;
             line-height: 1.48;
             color: var(--mor-text-body);
             font-style: italic;
@@ -952,7 +957,7 @@
 
         .review-author-line {
             font-family: var(--font-mono);
-            font-size: 0.70rem;
+            font-size: 0.68rem;
             font-weight: 700;
             color: var(--mor-blue-deep);
             text-transform: uppercase;
@@ -965,10 +970,10 @@
             background: #FFFFFF;
             border: 1.5px solid var(--mor-border-subtle);
             border-radius: 26px;
-            padding: 18px 16px;
+            padding: 16px 14px;
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 11px;
             box-shadow: var(--shadow-card);
             width: 100%;
         }
@@ -986,7 +991,7 @@
             border-radius: 12px;
             padding: 7px 4px;
             font-family: var(--font-mono);
-            font-size: 0.65rem;
+            font-size: 0.64rem;
             font-weight: 700;
             color: var(--mor-text-body);
             text-align: center;
@@ -1003,7 +1008,7 @@
 
         .map-canvas-stage {
             width: 100%;
-            height: 225px;
+            height: 220px;
             border-radius: 16px;
             overflow: hidden;
             border: 1.5px solid var(--mor-border-subtle);
@@ -1021,7 +1026,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 0 4px;
-            font-size: 0.78rem;
+            font-size: 0.76rem;
             color: var(--mor-text-body);
         }
 
@@ -1033,7 +1038,7 @@
             color: var(--mor-blue-deep);
             text-decoration: none;
             font-family: var(--font-mono);
-            font-size: 0.72rem;
+            font-size: 0.70rem;
             font-weight: 700;
             text-transform: uppercase;
             display: inline-flex;
@@ -1073,11 +1078,11 @@
             width: 100%;
             max-height: 90vh;
             overflow-y: auto;
-            padding: 24px 20px 22px;
+            padding: 22px 18px 20px;
             box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
             display: flex;
             flex-direction: column;
-            gap: 14px;
+            gap: 13px;
             position: relative;
             color: var(--mor-text-main);
             transform: scale(0.95);
@@ -1091,7 +1096,7 @@
         .btn-close-drawer {
             position: absolute;
             top: 14px; right: 14px;
-            width: 34px; height: 34px;
+            width: 32px; height: 32px;
             border-radius: 50%;
             background: var(--mor-bg-subtle);
             border: 1px solid var(--mor-border-subtle);
@@ -1111,13 +1116,13 @@
 
         .drawer-heading-box h3 {
             font-family: var(--font-serif);
-            font-size: 1.6rem;
+            font-size: 1.55rem;
             color: var(--mor-text-main);
             line-height: 1.1;
         }
 
         .drawer-heading-box p {
-            font-size: 0.82rem;
+            font-size: 0.80rem;
             color: var(--mor-text-muted);
             margin-top: 4px;
         }
@@ -1125,35 +1130,35 @@
         .ingredients-badges-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 8px;
+            gap: 7px;
         }
 
         .ingredient-item-chip {
             background: var(--mor-bg-subtle);
             border: 1px solid var(--mor-border-subtle);
             border-radius: 12px;
-            padding: 8px 10px;
-            font-size: 0.74rem;
+            padding: 7px 9px;
+            font-size: 0.72rem;
             font-weight: 700;
             color: var(--mor-text-main);
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 5px;
         }
 
         .aceitunas-sub-box {
             background: var(--mor-blue-soft);
             border: 1.5px solid var(--mor-border-blue);
-            border-radius: 16px;
-            padding: 12px 14px;
+            border-radius: 15px;
+            padding: 11px 13px;
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            gap: 5px;
         }
 
         .aceitunas-sub-box h4 {
             font-family: var(--font-sans);
-            font-size: 0.84rem;
+            font-size: 0.82rem;
             font-weight: 800;
             color: var(--mor-blue-deep);
             text-transform: uppercase;
@@ -1163,10 +1168,10 @@
             background: #25D366;
             color: #FFFFFF;
             text-decoration: none;
-            padding: 14px 18px;
+            padding: 13px 16px;
             border-radius: 14px;
             font-family: var(--font-sans);
-            font-size: 0.88rem;
+            font-size: 0.86rem;
             font-weight: 800;
             text-align: center;
             text-transform: uppercase;
@@ -1252,7 +1257,7 @@
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            width: 42px; height: 42px;
+            width: 40px; height: 40px;
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.95);
             border: 2px solid var(--mor-blue-electric);
@@ -1271,10 +1276,10 @@
         .lb-arrow-btn.next { right: 12px; }
 
         .lightbox-caption-bar {
-            padding: 14px 18px;
+            padding: 13px 16px;
             background: #FFFFFF;
             font-family: var(--font-sans);
-            font-size: 0.90rem;
+            font-size: 0.88rem;
             font-weight: 800;
             color: var(--mor-text-main);
             text-align: center;
@@ -1295,7 +1300,7 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 46px; height: 46px;
+            width: 44px; height: 44px;
             border-radius: 50%;
             background: #FFFFFF;
             border: 1.5px solid var(--mor-border-subtle);
@@ -1306,18 +1311,18 @@
         }
 
         .social-circle-btn:hover {
-            transform: translateY(-3px);
+            transform: translateY(-2px);
             background: var(--mor-blue-electric);
             border-color: var(--mor-blue-electric);
             color: #FFFFFF;
             box-shadow: var(--shadow-float);
         }
 
-        .social-circle-btn svg { width: 19px; height: 19px; fill: currentColor; }
+        .social-circle-btn svg { width: 18px; height: 18px; fill: currentColor; }
 
         .footer-institutional-monument {
             margin-top: 10px;
-            padding-top: 22px;
+            padding-top: 20px;
             border-top: 1.5px dashed var(--mor-border-subtle);
             display: flex;
             flex-direction: column;
@@ -1335,7 +1340,7 @@
         }
 
         .footer-address-caption {
-            font-size: 0.78rem;
+            font-size: 0.77rem;
             color: var(--mor-text-muted);
             line-height: 1.5;
             font-weight: 500;
@@ -1379,8 +1384,8 @@
         }
 
         .floating-circle-glyph {
-            width: 50px;
-            height: 50px;
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
             background: #25D366;
             border: 2px solid #FFFFFF;
@@ -1397,21 +1402,32 @@
         }
 
         .floating-circle-glyph svg {
-            width: 26px; height: 26px; fill: #FFFFFF;
+            width: 25px; height: 25px; fill: #FFFFFF;
         }
 
         @media (max-width: 480px) {
-            body { padding-left: 10px; padding-right: 10px; }
-            .carousel-videos-track { grid-template-columns: 1fr; }
-            .reel-scroll-card { height: 320px; }
-            .gallery-cards-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
-            .photo-img-wrap { height: 120px; }
+            body { padding-left: 8px; padding-right: 8px; }
+            .carousel-videos-track {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                gap: 8px;
+            }
+            .reel-scroll-card { height: 215px; }
+            .reel-scroll-caption {
+                padding: 16px 6px 7px;
+                font-size: 0.66rem;
+                line-height: 1.18;
+            }
+            .gallery-cards-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                gap: 8px;
+            }
+            .photo-img-wrap { height: 115px; }
         }
     </style>
 </head>
 <body>
 
-    <!-- 1. PATRÓN SUAVE & ORGÁNICO EN MODO CLARO -->
+    <!-- 1. PATRÓN SUAVE & ORGÁNICO EN MODO CLARO CON MATICES VISIBLES -->
     <div class="ambient-soft-pattern" aria-hidden="true"></div>
     <div class="ambient-soft-veil" aria-hidden="true"></div>
 
@@ -1449,14 +1465,16 @@
             </div>
         </header>
 
-        <!-- HERO MONUMENTO CON MONEDA 3D -->
-        <section class="hero-monument-card">
+        <!-- 1. HERO: LOGO Y TÍTULO SUELTOS (MÁXIMA JERARQUÍA) -->
+        <section class="hero-standalone-wrap">
             <div class="logo-coin-container" onclick="playTap()" title="Fiambrería La Morada">
                 <img src="logo.webp" alt="La Morada - Logo Oficial" onerror="this.onerror=null; this.src='logo.png';">
             </div>
-
             <h1 class="brand-monument-title">La Morada</h1>
+        </section>
 
+        <!-- 2. RECUADRO COMPACTO Y ESBELTO -->
+        <section class="hero-subcard-compact">
             <div class="hero-title-edition">
                 Estilo Casero · Pastas Caseras
             </div>
@@ -1523,7 +1541,7 @@
             </a>
         </section>
 
-        <!-- REELS Y VIDEOS EN MODO CLARO (SMART VIDEO ENGINE) -->
+        <!-- REELS Y VIDEOS (SIEMPRE 2 EN LA MISMA FILA) -->
         <section class="showcase-enclosure-clean">
             <div class="enclosure-header-row">
                 <span class="enclosure-title-main">Nuestra Pasión en Video</span>
@@ -1562,7 +1580,7 @@
             <article class="bento-cell-card cell-featured-healthy" onclick="openDrawer()">
                 <div class="cell-top-meta">
                     <span class="cell-chip-tag">14 Ingredientes Seleccionados</span>
-                    <span style="font-family: var(--font-mono); font-size: 0.70rem; font-weight: 800; color: var(--mor-blue-deep);">VER LISTA ↗</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.68rem; font-weight: 800; color: var(--mor-blue-deep);">VER LISTA ↗</span>
                 </div>
                 <div>
                     <h3 class="cell-poster-headline" style="color: var(--mor-blue-deep);">Tenemos la mejor picada saludable</h3>
@@ -1576,7 +1594,7 @@
             <article class="bento-cell-card" onclick="filterGallery('conservas')">
                 <div class="cell-top-meta">
                     <span class="cell-chip-tag">Al Paso</span>
-                    <span style="font-family: var(--font-mono); font-size: 0.70rem; color: var(--mor-blue-electric);">CALENTITO</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--mor-blue-electric);">CALENTITO</span>
                 </div>
                 <div>
                     <h3 class="cell-poster-headline">Sándwiches Calentitos</h3>
@@ -1588,7 +1606,7 @@
             <article class="bento-cell-card" onclick="filterGallery('pastas')">
                 <div class="cell-top-meta">
                     <span class="cell-chip-tag" style="color: var(--mor-cheese-gold);">Caseritas</span>
-                    <span style="font-family: var(--font-mono); font-size: 0.70rem; color: var(--mor-cheese-gold);">FÁBRICA</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--mor-cheese-gold);">FÁBRICA</span>
                 </div>
                 <div>
                     <h3 class="cell-poster-headline">Ravioles o Raviolones</h3>
@@ -1600,7 +1618,7 @@
             <article class="bento-cell-card" onclick="playTap()">
                 <div class="cell-top-meta">
                     <span class="cell-chip-tag">Saludable</span>
-                    <span style="font-family: var(--font-mono); font-size: 0.65rem; background: var(--mor-bg-subtle); padding: 2px 6px; border-radius: 4px;">APTO</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.62rem; background: var(--mor-bg-subtle); padding: 2px 6px; border-radius: 4px;">APTO</span>
                 </div>
                 <div>
                     <h3 class="cell-poster-headline">Productos Sin TACC</h3>
@@ -1612,7 +1630,7 @@
             <article class="bento-cell-card" onclick="filterGallery('bebidas')">
                 <div class="cell-top-meta">
                     <span class="cell-chip-tag">Maridaje</span>
-                    <span style="font-family: var(--font-mono); font-size: 0.70rem; color: var(--mor-wine-accent);">BODEGA</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--mor-wine-accent);">BODEGA</span>
                 </div>
                 <div>
                     <h3 class="cell-poster-headline">Mini Vinoteca</h3>
@@ -1624,7 +1642,7 @@
             <article class="bento-cell-card" onclick="filterGallery('regalos')">
                 <div class="cell-top-meta">
                     <span class="cell-chip-tag">Para Compartir</span>
-                    <span style="font-family: var(--font-mono); font-size: 0.70rem; color: var(--mor-cheese-gold);">BOX</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--mor-cheese-gold);">BOX</span>
                 </div>
                 <div>
                     <h3 class="cell-poster-headline">Regalos &amp; Dulces</h3>
@@ -1636,7 +1654,7 @@
             <article class="bento-cell-card" onclick="filterGallery('picadas')">
                 <div class="cell-top-meta">
                     <span class="cell-chip-tag">6 Variedades</span>
-                    <span style="font-family: var(--font-mono); font-size: 0.70rem; color: var(--mor-blue-deep);">TABLAS</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--mor-blue-deep);">TABLAS</span>
                 </div>
                 <div>
                     <h3 class="cell-poster-headline">Comer Variado</h3>
@@ -1646,7 +1664,7 @@
 
         </section>
 
-        <!-- GALERÍA DE FOTOS Y PRODUCTOS (.WEBP) -->
+        <!-- GALERÍA DE FOTOS CURADA (10 FOTOS, 5 FILAS EXACTAS DE 2) -->
         <section class="showcase-enclosure-clean">
             <div class="enclosure-header-row">
                 <span class="enclosure-title-main">Nuestros Sabores &amp; Espacios</span>
@@ -1666,7 +1684,7 @@
                 <button class="cat-tab-btn" onclick="filterGallery('bebidas')">Vinoteca</button>
             </div>
 
-            <!-- CONTENEDOR GRID FOTOGRÁFICO -->
+            <!-- CONTENEDOR GRID FOTOGRÁFICO BLINDADO -->
             <div class="gallery-cards-grid" id="galleryContainer">
                 <!-- Inyectado dinámicamente -->
             </div>
@@ -1829,28 +1847,22 @@
     <!-- CONTROLADORES JAVASCRIPT: SMART VIDEO ENGINE, LEAFLET & HÁPTICA -->
     <script>
         // ==========================================================================
-        // 1. DATASET DE FOTOS WEBP REALES
+        // 1. DATASET DE FOTOS WEBP CURADO (10 FOTOS BALANCEADAS)
         // ==========================================================================
         const catalogPhotos = [
             { file: "picada1.webp", title: "Picadas Listas para Compartir", cat: "picadas", tag: "Picadas" },
-            { file: "picada2.webp", title: "Combos para Juntadas", cat: "picadas", tag: "Picadas" },
             { file: "picadacenital.webp", title: "Pedí una Buena Picada", cat: "picadas", tag: "Picadas" },
-            { file: "picadaprimerplano2.webp", title: "Calidad en Cada Detalle", cat: "picadas", tag: "Picadas" },
             { file: "quesos.webp", title: "Quesos Protagonistas · 6 Variedades", cat: "picadas", tag: "Quesos" },
             
             { file: "embutidos.webp", title: "Jamón Natural & Paleta al Corte", cat: "embutidos", tag: "Fiambres" },
 
             { file: "pastascrudasparacomprar.webp", title: "Fábrica de Pastas Caseras", cat: "pastas", tag: "Pastas" },
-            { file: "pastaslistasrecien.webp", title: "Ravioles o Raviolones", cat: "pastas", tag: "Pastas" },
             { file: "pastascenitalplatococido.webp", title: "Hoy Comemos Pastas", cat: "pastas", tag: "Pastas" },
 
             { file: "aceitunasycomestibles.webp", title: "Aceitunas Rellenas & Conservas", cat: "conservas", tag: "Conservas" },
-            { file: "empleadoconlpotesdevidriodeaceitunas.webp", title: "Atención y Pasión por el Rubro", cat: "conservas", tag: "Conservas" },
             { file: "pastasuntables.webp", title: "Humus de Garbanzo & Dips", cat: "conservas", tag: "Untables" },
 
-            { file: "cajaderegalo.webp", title: "Regalos Personalizados", cat: "regalos", tag: "Regalos" },
             { file: "dueñaconchocolates.webp", title: "Tentaciones Dulces", cat: "regalos", tag: "Dulces" },
-
             { file: "cervezas2.webp", title: "Mini Vinoteca & Cervezas", cat: "bebidas", tag: "Bebidas" }
         ];
 
